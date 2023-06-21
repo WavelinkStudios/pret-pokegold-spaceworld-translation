@@ -366,34 +366,36 @@ DemoItemList::
 	db $FF
 
 DemoPlayerName::
-	db "サトシ@"
+	db "ASH@"
 
 DemoRivalName::
-	db "シゲル@"
+	db "GARY@"
 
 OakSpeechDemo::
-	text "ようこそ"
-	line "ポケット　モンスターの　せかいへ！"
-	cont "ごぞんじ　わしが　オーキドじゃ！"
+	text "Welcome... to the"
+	line "world of POKéMON!"
+	cont "As you may know,"
+	cont "I am PROF.OAK!"
 
-	para "きょう　きみに　きてもらったのは"
-	line "ほかでもない"
-	cont "あたらしい　ずかんづくりを"
-	cont "てつだって　ほしいのじゃ！"
+	para "I brought you here"
+	line "today because I"
+	cont "need your help "
+	cont "putting together"
+	cont "a new POKéDEX!"
 
-	para "もちろん"
-	line "きみの　パートナーとなる　ポケモンと"
-	cont "りュックは　ようい　しておる"
+	para "Naturally, I have"
+	line "prepared a POKéMON"
+	cont "and a PACK."
 
-	para "りュックの　なかには"
-	line "キズぐすりと"
-	cont "モンスターボールが"
-	cont "はいっておるから　あんしんじゃ！"
+	para "In the PACK you'll"
+	line "find POTIONs and"
+	cont "POKé BALLs, so no"
+	cont "need for worry!"
 
-	para "すでに　きみの　ライバルは"
-	line "しゅっぱつ　しとる"
+	para "Your RIVAL's gone"
+	line "ahead already."
 
-	para "まけないよう　がんばって　くれい！"
+	para "Hang in there!"
 	prompt
 
 OakSpeech1::
@@ -475,10 +477,10 @@ CopyNameDebug:
 	ret
 
 DebugPlayerName:
-	db "コージ@"
+	db "KOJI@"
 
 DebugRivalName:
-	db "レッド@"
+	db "RED@"
 
 ChoosePlayerName::
 	call PanPortraitRight

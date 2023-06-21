@@ -109,7 +109,6 @@ ROMX $01
 	"engine/dumps/bank01.asm@ReanchorBGMap_NoOAMUpdate"
 	"engine/math/math.asm"
 	"data/items/attributes.asm"
-	"data/items/names.asm"
 	"engine/dumps/bank01.asm@Function771e"
 	"engine/overworld/object_collision.asm@GetSpritesNextTile"
 	"engine/dumps/bank01.asm@Function776e"
@@ -960,6 +959,10 @@ ROMX $3f
 	"engine/menu/debug_menu.asm@Sound Test"
 	org $67a1
 	"engine/menu/debug_menu.asm@Subgame Menu"
+
+ROMX $41
+	org $4000
+	"data/items/names.asm"
 
 WRAM0
 	org $c000

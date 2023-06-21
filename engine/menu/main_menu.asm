@@ -138,7 +138,7 @@ MainMenu::
 
 MainMenuHeader:
 	db MENU_BACKUP_TILES
-	menu_coords 0, 0, 13, 7
+	menu_coords 0, 0, 14, 7 ; extended border from 13 to 14 to fit translated text
 	dw .MenuData
 	db 1 ; default option
 
@@ -150,11 +150,11 @@ MainMenuHeader:
 	dw .Strings
 
 .Strings:
-	db "つづきから　はじめる@"
-	db "さいしょから　はじめる@"
-	db "せっていを　かえる@"
-	db "#を　あそぶ@"
-	db "じかんセット@"
+	db "CONTINUE@"
+	db "NEW GAME@"
+	db "OPTIONS@"
+	db "PLAY POKéMON@"
+	db "TIME@"
 
 MainMenuJumptable:
 	dw MainMenuOptionContinue
@@ -282,9 +282,9 @@ PrintPlayTime::
 
 PlayerInfoText:
 	db   "しゅじんこう"
-	next "もっているバッジ　　　　こ"
-	next "#ずかん　　　　ひき"
-	next "プレイじかん"
+	next "BADGES"
+	next "POKéDEX"
+	next "TIME"
 	text_end
 
 StartNewGame::

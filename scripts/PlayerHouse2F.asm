@@ -171,16 +171,18 @@ PlayerHouse2FTextString2:
 	done
 
 PlayerHouse2FTextString3:
-	text "クりスマスに　カントーの"
-	line "しんせきに　プレゼント"
-	cont "してもらった　にんぎょうだ"
+	text "It's a doll you"
+	line "got as a Christmas"
+	cont "present from a"
+	cont "relative in KANTO."
 	done
 
 PlayerHouse2FTextString4:
-	text "ニンテンドウ６４を　してる！"
-	cont "⋯⋯　⋯⋯　さてと！"
-	cont "そろそろ　そとに　あそびに"
-	cont "でかけるか！"
+	text "You're playing the"
+	line "Nintendo 64!"
+	cont "...Alright!"
+	cont "It's time to go"
+	cont "play outside!"
 	done
 
 PlayerHouse2FTextString5:
@@ -208,8 +210,8 @@ PlayerHouse2FTextString6:
 	done
 
 PlayerHouse2FTextString7:
-	text "あとで"
-	line "よもっと<⋯⋯>"
+	text "I'll read this"
+	line "later..."
 	done
 
 PlayerHouse2FTextString8: ; (unused?)
@@ -231,30 +233,34 @@ PlayerHouse2FTextString8: ; (unused?)
 	done
 
 PlayerHouse2FTextString9:
-	text "<PLAYER>は"
-	line "ラジオのスイッチを　おした！"
+	text "<PLAYER> turned"
+	line "on the radio."
 
-	para "ジェイ　オー　ピー　エム"
-	line "こちらは"
-	cont "#　ほうそうきょく　です"
+	para "Now listening to"
+	line "JOPM, the POKéMON"
+	cont "broadcast station!"
+	cont "We'll now present"
+	cont "POKéMON News."
 
-	para "#ニュースを　おおくりします"
-	line "<⋯⋯>　#の　せかいてきな"
-	cont "けんきゅうしゃ　オーキドはかせが"
-	cont "カントー　から"
-	cont "すがたを　けしました"
-	cont "あらたな　けんきゅうの　ばしょを"
-	cont "もとめて　いどうした　との"
-	cont "みかたも　ありますが"
-	cont "なんらかの　じけんに　まきこまれた"
-	cont "かのうせいも　あり"
-	cont "かんけいしゃは　とても"
-	cont "しんぱい　しています"
+	para "...World-renowned"
+	line "POKéMON researcher"
+	cont "reported missing"
+	cont "from Kanto!"
+	cont "Some suspect that"
+	cont "PROF. OAK may have"
+	cont "simply left for a"
+	cont "new place to"
+	cont "study, but we"
+	cont "can't yet disprove"
+	cont "that foul play"
+	cont "may have been."
+	cont "involved."
+	cont "Concerned parties"
+	cont "are very worried."
 
-	para "<⋯⋯><⋯⋯>いじょう"
-	line "#ニュースでした"
+	para "...That concludes"
+	line "today's news."
+	cont "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
 
-	para "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
-	line "それでは　ひきつづき"
-	cont "おんがくを　おたのしみ　ください"
+	para "Coming up, music."
 	done

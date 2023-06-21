@@ -63,24 +63,31 @@ Route1P1TextSign2:
 	ret
 
 Route1P1TextString1:
-	text "しょうねん！"
+	text "Listen up, lad!"
 
-	para "モンスターボールは"
-	line "やせいの　ポケモンを　よわらせてから"
-	cont "つかうのが　きほんだ！"
+	para "POKé BALLs should"
+	line "be used only after"
+	cont "weakening the wild"
+	cont "POKéMON!"
 	done
 
 Route1P1TextString2:
-	text "ぼく　ゆうがた　じゅくの　かえりに"
-	line "かわった　ポケモンを　みたよ"
+	text "One evening, on my"
+	line "way home from cram"
+	cont "school, I saw an"
+	cont "unknown POKéMON!"
 	done
 
 Route1P1TextString3:
-	text "このさき　しずかな　おか"
-	line "やせいの　ポケモンに　ちゅうい"
+	text "Beyond here lies"
+	line "the SILENT HILLS."
+
+	para "Beware of wild"
+	line "POKéMON."
 	done
 
 Route1P1TextString4:
-	text "ここは　１ばん　どうろ"
-	line "サイレントヒル　⋯⋯　オールドシティ"
+	text "ROUTE 1"
+	line "SILENT HILL -"
+	cont "OLD CITY"
 	done
