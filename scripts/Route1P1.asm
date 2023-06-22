@@ -63,31 +63,54 @@ Route1P1TextSign2:
 	ret
 
 Route1P1TextString1:
-	text "Listen up, lad!"
+	text "しょうねん！"
 
-	para "POKé BALLs should"
-	line "be used only after"
-	cont "weakening the wild"
-	cont "POKéMON!"
+	para "モンスターボールは"
+	line "やせいの　ポケモンを　よわらせてから"
+	cont "つかうのが　きほんだ！"
 	done
+
+;Route1P1TextString1:
+;	text "Listen up, lad!"
+;
+;	para "POKé BALLs should"
+;	line "be used only after"
+;	cont "weakening the wild"
+;	cont "POKéMON!"
+;	done
 
 Route1P1TextString2:
-	text "One evening, on my"
-	line "way home from cram"
-	cont "school, I saw an"
-	cont "unknown POKéMON!"
+	text "ぼく　ゆうがた　じゅくの　かえりに"
+	line "かわった　ポケモンを　みたよ"
 	done
+
+;Route1P1TextString2:
+;	text "One evening, on my"
+;	line "way home from cram"
+;	cont "school, I saw an"
+;	cont "unknown POKéMON!"
+;	done
 
 Route1P1TextString3:
-	text "Beyond here lies"
-	line "the SILENT HILLS."
-
-	para "Beware of wild"
-	line "POKéMON."
+	text "このさき　しずかな　おか"
+	line "やせいの　ポケモンに　ちゅうい"
 	done
+
+;Route1P1TextString3:
+;	text "Beyond here lies"
+;	line "the SILENT HILLS."
+;
+;	para "Beware of wild"
+;	line "POKéMON."
+;	done
 
 Route1P1TextString4:
-	text "ROUTE 1"
-	line "SILENT HILL -"
-	cont "OLD CITY"
+	text "ここは　１ばん　どうろ"
+	line "サイレントヒル　⋯⋯　オールドシティ"
 	done
+
+;Route1P1TextString4:
+;	text "ROUTE 1"
+;	line "SILENT HILL -"
+;	cont "OLD CITY"
+;	done
