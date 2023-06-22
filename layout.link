@@ -820,8 +820,6 @@ ROMX $36
 	"scripts/South.asm"
 	"data/maps/objects/North.asm"
 	"scripts/North.asm"
-	"data/maps/objects/Route1P1.asm"
-	"data/maps/objects/Route1P2.asm"
 	"data/maps/objects/Route2.asm"
 	"scripts/Route2.asm"
 	"data/maps/objects/HaitekuWestRoute.asm"
@@ -872,8 +870,6 @@ ROMX $36
 	"scripts/BullForestRoute3.asm"
 	"scripts/SilentHill.asm"
 	"engine/menu/set_time.asm"
-	"scripts/Route1P1.asm"
-	"scripts/Route1P2.asm"
 
 ROMX $37
 	org $4000
@@ -887,17 +883,10 @@ ROMX $37
 
 ROMX $38
 	org $4000
-	"engine/games/pikachu_minigame.asm@Pikachu Minigame"
-	org $5403
-	"gfx.asm@Poker GFX"
-	org $5f93
-	"gfx.asm@15 Puzzle GFX"
-	org $622b
-	"engine/games/memory_minigame.asm"
-	"gfx.asm@Matches GFX"
-	org $6886
-	"engine/games/picross_minigame.asm"
-	"gfx.asm@Picross GFX"
+	"data/maps/objects/Route1P1.asm"
+	"data/maps/objects/Route1P2.asm"
+	"scripts/Route1P1.asm"
+	"scripts/Route1P2.asm"
 
 ROMX $39
 	org $4000
@@ -963,6 +952,20 @@ ROMX $3f
 ROMX $41
 	org $4000
 	"data/items/names.asm"
+
+ROMX $42
+	org $4000
+	"engine/games/pikachu_minigame.asm@Pikachu Minigame"
+	org $5403
+	"gfx.asm@Poker GFX"
+	org $5f93
+	"gfx.asm@15 Puzzle GFX"
+	org $622b
+	"engine/games/memory_minigame.asm"
+	"gfx.asm@Matches GFX"
+	org $6886
+	"engine/games/picross_minigame.asm"
+	"gfx.asm@Picross GFX"
 
 WRAM0
 	org $c000

@@ -170,12 +170,25 @@ PlayerHouse2FTextString2:
 	cont "メールぐらい　よんでおけよ"
 	done
 
+;PlayerHouse2FTextString3:
+;	text "クりスマスに　カントーの"
+;	line "しんせきに　プレゼント"
+;	cont "してもらった　にんぎょうだ"
+;	done
+
 PlayerHouse2FTextString3:
 	text "It's a doll you"
 	line "got as a Christmas"
 	cont "present from a"
 	cont "relative in KANTO."
 	done
+
+;PlayerHouse2FTextString4:
+;	text "ニンテンドウ６４を　してる！"
+;	cont "⋯⋯　⋯⋯　さてと！"
+;	cont "そろそろ　そとに　あそびに"
+;	cont "でかけるか！"
+;	done
 
 PlayerHouse2FTextString4:
 	text "You're playing the"
@@ -209,6 +222,11 @@ PlayerHouse2FTextString6:
 	cont "ポケモンけんきゅうしゃ　オーキド"
 	done
 
+;PlayerHouse2FTextString7:
+;	text "あとで"
+;	line "よもっと<⋯⋯>"
+;	done
+
 PlayerHouse2FTextString7:
 	text "I'll read this"
 	line "later..."
@@ -231,6 +249,35 @@ PlayerHouse2FTextString8: ; (unused?)
 	line "⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯⋯"
 	cont "シルフの　ホームぺージだ"
 	done
+
+;PlayerHouse2FTextString9:
+;	text "<PLAYER>は"
+;	line "ラジオのスイッチを　おした！"
+;
+;	para "ジェイ　オー　ピー　エム"
+;	line "こちらは"
+;	cont "#　ほうそうきょく　です"
+;
+;	para "#ニュースを　おおくりします"
+;	line "<⋯⋯>　#の　せかいてきな"
+;	cont "けんきゅうしゃ　オーキドはかせが"
+;	cont "カントー　から"
+;	cont "すがたを　けしました"
+;	cont "あらたな　けんきゅうの　ばしょを"
+;	cont "もとめて　いどうした　との"
+;	cont "みかたも　ありますが"
+;	cont "なんらかの　じけんに　まきこまれた"
+;	cont "かのうせいも　あり"
+;	cont "かんけいしゃは　とても"
+;	cont "しんぱい　しています"
+;
+;	para "<⋯⋯><⋯⋯>いじょう"
+;	line "#ニュースでした"
+;
+;	para "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
+;	line "それでは　ひきつづき"
+;	cont "おんがくを　おたのしみ　ください"
+;	done
 
 PlayerHouse2FTextString9:
 	text "<PLAYER> turned"

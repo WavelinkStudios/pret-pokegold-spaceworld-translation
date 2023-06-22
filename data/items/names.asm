@@ -7,7 +7,7 @@ ItemNames::
 	db "ULTRA BALL@" ; ULTRA_BALL
 	db "しようきんし@" ; 03
 	db "GREAT BALL@" ; GREAT_BALL
-	db "POKéBALL@" ; POKE_BALL
+	db "POKé BALL@" ; POKE_BALL
 	db "TOWN MAP@" ; TOWN_MAP
 	db "BICYCLE@" ; BICYCLE
 	db "MOON STONE@" ; MOON_STONE

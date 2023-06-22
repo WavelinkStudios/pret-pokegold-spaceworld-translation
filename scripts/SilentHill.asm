@@ -271,6 +271,11 @@ SilentHillTextString1:
 	text "あれ？　カギが　かかっている"
 	done
 
+;SilentHillTextString1:
+;	text "Huh?"
+;	line "It's locked..."
+;	done
+
 SilentHillMovement7:
 	db $04, $32
 
@@ -290,14 +295,23 @@ SilentHillTextString2:
 	text "にゅうきょしゃ　ぼしゅうちゅう！"
 	done
 
+;SilentHillTextString2:
+;	text "HOUSE FOR RENT"
+;	done
+
 SilentHillSignText1:
 	ld hl, SilentHillTextString3
 	call OpenTextbox
 	ret
 
+;SilentHillTextString3:
+;	text "ここは　サイレント　ヒル"
+;	line "しずかな　おか"
+;	done
+
 SilentHillTextString3:
-	text "ここは　サイレント　ヒル"
-	line "しずかな　おか"
+	text "Ever peaceful"
+	line "SILENT HILL"
 	done
 
 SilentHillPlayerHouseText:
@@ -305,8 +319,12 @@ SilentHillPlayerHouseText:
 	call OpenTextbox
 	ret
 
+;SilentHillTextString4:
+;	text "ここは　<PLAYER>　のいえ"
+;	done
+
 SilentHillTextString4:
-	text "ここは　<PLAYER>　のいえ"
+	text "<PLAYER>'s house"
 	done
 
 SilentHillRivalHouseText:
@@ -314,8 +332,12 @@ SilentHillRivalHouseText:
 	call OpenTextbox
 	ret
 
+;SilentHillTextString5:
+;	text "ここは　<RIVAL>　のいえ"
+;	done
+
 SilentHillTextString5:
-	text "ここは　<RIVAL>　のいえ"
+	text "<RIVAL>'s house"
 	done
 
 SilentHill_TextPointers::

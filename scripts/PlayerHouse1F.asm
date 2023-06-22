@@ -47,6 +47,17 @@ PlayerHouse1FNPCText1:
 	call OpenTextbox
 	ret
 
+;PlayerHouse1FTextString1:
+;	text "おかあさん『えっ　あなた"
+;	line "オーキドはかせに"
+;	cont "ポケモンずかんを　つくってくれって"
+;	cont "たのまれたの？"
+;
+;	para "すごいじゃない！"
+;	line "わたしも　ポケモン　きらいって"
+;	cont "わけじゃないし　がんばるのよ！"
+;	done
+
 PlayerHouse1FTextString1:
 	text "MOM: Oh, you were"
 	line "asked by PROF. OAK"
