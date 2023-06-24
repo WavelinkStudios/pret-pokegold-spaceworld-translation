@@ -4048,31 +4048,58 @@ Function7a93:
 	ret
 
 Text7bad:
-	db "Text Speed"
-	next "　Fast　　　Med　　　　Slow"
+	db "はなしの　はやさ"
+	next "　はやい　　　　ふつう　　　　おそい"
 	text_end
+
+;Text7bad:
+;	db "Text Speed"
+;	next "　Fast　　　Med　　　　Slow"
+;	text_end
 
 Text7bc9:
-	db "Battle Animation"
-	next "　On　　　　　　　Off"
+	db "せんとう　アニメーション"
+	next "　じっくり　みる　　とばして　みる"
 	text_end
+
+;Text7bc9:
+;	db "Battle Animation"
+;	next "　On　　　　　　　Off"
+;	text_end
 
 Text7be8:
-	db "Battle Style"
-	next "　Shift　　　　Set"
+	db "しあいの　ルール"
+	next "　いれかえタイプ　　かちぬきタイプ"
 	text_end
+
+;Text7be8:
+;	db "Battle Style"
+;	next "　Shift　　　　Set"
+;	text_end
 
 Text7c03:
-	db "　Mono　　　　　Stereo"
+	db "　モノラル　　　　　ステレオ"
 	text_end
+
+;Text7c03:
+;	db "　Mono　　　　　Stereo"
+;	text_end
 
 Text7c12:
-	db "　END"
+	db "　おわり"
 	text_end
 
+;Text7c12:
+;	db "　END"
+;	text_end
+
 Text7c17:
-	db "　Set Frame　"
+	db "　わく　を　かえる　"
 	text_end
+
+;Text7c17:
+;	db "　Set Frame　"
+;	text_end
 
 Table7c22:
 	db $0F

@@ -25,21 +25,21 @@ TrainerClassNames::
 	db "さんにんしゅう@" ; TRIO_3
 	db "ロケットだんいん♀@" ; ROCKET_F
 	db "たんパンこぞう@" ; YOUNGSTER
-	db "SCHLBOY@" ; SCHOOLBOY
+	db "じゅくがえり@" ; SCHOOLBOY
 	db "ひよっこ@" ; FLEDGLING
-	db "LASS@" ; LASS
+	db "ミニスカート@" ; LASS
 	db "てんさい@" ; PRODIGY
 	db "プロフェッショナル♂@" ; PROFESSIONAL_M
 	db "プロフェッショナル♀@" ; PROFESSIONAL_F
-	db "BEAUTY@" ; BEAUTY
+	db "おとなのおねえさん@" ; BEAUTY
 	db "かいじゅうマニア@" ; POKEMANIAC
 	db "ロケットだんいん♂@" ; ROCKET_M
 	db "ジェントルマン@" ; GENTLEMAN
 	db "せんせい♂@" ; TEACHER_M
 	db "せんせい♀@" ; TEACHER_F
 	db "とっちゃんぼうや@" ; MANCHILD
-	db "BUG CTCHR@" ; BUG_CATCHER_BOY
-	db "FSHR@" ; FISHER
+	db "むしとりしょうねん@" ; BUG_CATCHER_BOY
+	db "つりびと@" ; FISHER
 	db "かいパンやろう@" ; SWIMMER_F
 	db "ビキニのおねえさん@" ; SWIMMER_M
 	db "ふなのり@" ; SAILOR
@@ -50,10 +50,10 @@ TrainerClassNames::
 	db "ぼうそうぞく@" ; BIKER
 	db "ロッククライマー@" ; ROCK_CLIMBER
 	db "かじばどろぼう@" ; BURGLAR
-	db "FIRE B@" ; FIREBREATHER
+	db "ひふきやろう@" ; FIREBREATHER
 	db "ジプシージャグラー@" ; JUGGLER
 	db "からておう@" ; BLACKBELT
-	db "SPRTMN@" ; SPORTSMAN
+	db "スポーツマン@" ; SPORTSMAN
 	db "ちょうのうりょくしゃ@" ; PSYCHIC
 	db "カンフーマスター@" ; KUNG_FU_MASTER
 	db "うらないし@" ; FORTUNE_TELLER
@@ -62,7 +62,7 @@ TrainerClassNames::
 	db "イタコ@" ; MEDIUM
 	db "へいし@" ; SOLDIER
 	db "ゲルゲだんいん♀@" ; GERUGE_MEMBER_F
-	db "KMONO@" ; KIMONO_GIRL
+	db "まいこはん@" ; KIMONO_GIRL
 	db "ふたごちゃん@" ; TWINS
 	db "ゲルゲだんいん♂@" ; GERUGE_MEMBER_M_2
 	db "してんのう♂@" ; ELITE_FOUR_M

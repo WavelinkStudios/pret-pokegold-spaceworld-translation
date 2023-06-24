@@ -99,7 +99,7 @@ GetNamingScreenSetup:
 	ret
 
 .NicknameText
-	db "@"
+	db "のニックネームは？@"
 
 .Player:
 	ld de, GoldSpriteGFX
@@ -111,7 +111,10 @@ GetNamingScreenSetup:
 	ret
 
 .NameText:
-	db "YOUR NAME?@"
+	db "あなた　の　なまえは？@"
+
+;.NameText:
+;	db "YOUR NAME?@"
 
 .Rival:
 	ld de, SilverSpriteGFX
@@ -124,7 +127,11 @@ GetNamingScreenSetup:
 
 .RivalText:
 ; the ret just preceeding this would make the first word Rival.
-	db "RIVAL'S NAME?@"
+	db "ライバル　の　なまえは？@"
+
+;.RivalText:
+; the ret just preceeding this would make the first word Rival.
+;	db "RIVAL'S NAME?@"
 
 .Mom:
 	ld de, MomSpriteGFX
@@ -136,7 +143,10 @@ GetNamingScreenSetup:
 	ret
 
 .MomText:
-	db "MOM'S NAME?@"
+	db "ははおや　の　なまえは？@"
+
+;.MomText:
+;	db "MOM'S NAME?@"
 
 .Box:
 	ld de, PokeBallSpriteGFX
@@ -160,7 +170,7 @@ GetNamingScreenSetup:
 	ret
 
 .BoxText:
-	db "BOX NAME?@"
+	db "バンク　の　なまえは？@"
 
 .LoadSprite:
 ; copies the sprite at de into the top of VRAM, as well as the sprite $C0 after de

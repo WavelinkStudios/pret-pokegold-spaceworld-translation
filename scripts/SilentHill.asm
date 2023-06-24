@@ -304,41 +304,41 @@ SilentHillSignText1:
 	call OpenTextbox
 	ret
 
-;SilentHillTextString3:
-;	text "ここは　サイレント　ヒル"
-;	line "しずかな　おか"
-;	done
-
 SilentHillTextString3:
-	text "Ever peaceful"
-	line "SILENT HILL"
+	text "ここは　サイレント　ヒル"
+	line "しずかな　おか"
 	done
+
+;SilentHillTextString3:
+;	text "Ever peaceful"
+;	line "SILENT HILL"
+;	done
 
 SilentHillPlayerHouseText:
 	ld hl, SilentHillTextString4
 	call OpenTextbox
 	ret
 
-;SilentHillTextString4:
-;	text "ここは　<PLAYER>　のいえ"
-;	done
-
 SilentHillTextString4:
-	text "<PLAYER>'s house"
+	text "ここは　<PLAYER>　のいえ"
 	done
+
+;SilentHillTextString4:
+;	text "<PLAYER>'s house"
+;	done
 
 SilentHillRivalHouseText:
 	ld hl, SilentHillTextString5
 	call OpenTextbox
 	ret
 
-;SilentHillTextString5:
-;	text "ここは　<RIVAL>　のいえ"
-;	done
-
 SilentHillTextString5:
-	text "<RIVAL>'s house"
+	text "ここは　<RIVAL>　のいえ"
 	done
+
+;SilentHillTextString5:
+;	text "<RIVAL>'s house"
+;	done
 
 SilentHill_TextPointers::
 	dw SilentHillTextRival1 ; west
