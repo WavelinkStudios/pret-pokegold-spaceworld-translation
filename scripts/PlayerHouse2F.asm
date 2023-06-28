@@ -170,33 +170,33 @@ PlayerHouse2FTextString2:
 	cont "メールぐらい　よんでおけよ"
 	done
 
-;PlayerHouse2FTextString3:
-;	text "クりスマスに　カントーの"
-;	line "しんせきに　プレゼント"
-;	cont "してもらった　にんぎょうだ"
-;	done
-
 PlayerHouse2FTextString3:
-	text "It's a doll you"
-	line "got as a Christmas"
-	cont "present from a"
-	cont "relative in KANTO."
+	text "クりスマスに　カントーの"
+	line "しんせきに　プレゼント"
+	cont "してもらった　にんぎょうだ"
 	done
 
-;PlayerHouse2FTextString4:
-;	text "ニンテンドウ６４を　してる！"
-;	cont "⋯⋯　⋯⋯　さてと！"
-;	cont "そろそろ　そとに　あそびに"
-;	cont "でかけるか！"
+;PlayerHouse2FTextString3:
+;	text "It's a doll you"
+;	line "got as a Christmas"
+;	cont "present from a"
+;	cont "relative in KANTO."
 ;	done
 
 PlayerHouse2FTextString4:
-	text "You're playing the"
-	line "Nintendo 64!"
-	cont "...Alright!"
-	cont "It's time to go"
-	cont "play outside!"
+	text "ニンテンドウ６４を　してる！"
+	cont "⋯⋯　⋯⋯　さてと！"
+	cont "そろそろ　そとに　あそびに"
+	cont "でかけるか！"
 	done
+
+;PlayerHouse2FTextString4:
+;	text "You're playing the"
+;	line "Nintendo 64!"
+;	cont "...Alright!"
+;	cont "It's time to go"
+;	cont "play outside!"
+;	done
 
 PlayerHouse2FTextString5:
 	text "<PLAYER>は"
@@ -222,15 +222,15 @@ PlayerHouse2FTextString6:
 	cont "ポケモンけんきゅうしゃ　オーキド"
 	done
 
-;PlayerHouse2FTextString7:
-;	text "あとで"
-;	line "よもっと<⋯⋯>"
-;	done
-
 PlayerHouse2FTextString7:
-	text "I'll read this"
-	line "later..."
+	text "あとで"
+	line "よもっと<⋯⋯>"
 	done
+
+;PlayerHouse2FTextString7:
+;	text "I'll read this"
+;	line "later..."
+;	done
 
 PlayerHouse2FTextString8: ; (unused?)
 	text "しんはつばい　トレーナーギア！"
@@ -250,64 +250,64 @@ PlayerHouse2FTextString8: ; (unused?)
 	cont "シルフの　ホームぺージだ"
 	done
 
-;PlayerHouse2FTextString9:
-;	text "<PLAYER>は"
-;	line "ラジオのスイッチを　おした！"
-;
-;	para "ジェイ　オー　ピー　エム"
-;	line "こちらは"
-;	cont "#　ほうそうきょく　です"
-;
-;	para "#ニュースを　おおくりします"
-;	line "<⋯⋯>　#の　せかいてきな"
-;	cont "けんきゅうしゃ　オーキドはかせが"
-;	cont "カントー　から"
-;	cont "すがたを　けしました"
-;	cont "あらたな　けんきゅうの　ばしょを"
-;	cont "もとめて　いどうした　との"
-;	cont "みかたも　ありますが"
-;	cont "なんらかの　じけんに　まきこまれた"
-;	cont "かのうせいも　あり"
-;	cont "かんけいしゃは　とても"
-;	cont "しんぱい　しています"
-;
-;	para "<⋯⋯><⋯⋯>いじょう"
-;	line "#ニュースでした"
-;
-;	para "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
-;	line "それでは　ひきつづき"
-;	cont "おんがくを　おたのしみ　ください"
-;	done
-
 PlayerHouse2FTextString9:
-	text "<PLAYER> turned"
-	line "on the radio."
+	text "<PLAYER>は"
+	line "ラジオのスイッチを　おした！"
 
-	para "Now listening to"
-	line "JOPM, the POKéMON"
-	cont "broadcast station!"
-	cont "We'll now present"
-	cont "POKéMON News."
+	para "ジェイ　オー　ピー　エム"
+	line "こちらは"
+	cont "#　ほうそうきょく　です"
 
-	para "...World-renowned"
-	line "POKéMON researcher"
-	cont "reported missing"
-	cont "from Kanto!"
-	cont "Some suspect that"
-	cont "PROF. OAK may have"
-	cont "simply left for a"
-	cont "new place to"
-	cont "study, but we"
-	cont "can't yet disprove"
-	cont "that foul play"
-	cont "may have been."
-	cont "involved."
-	cont "Concerned parties"
-	cont "are very worried."
+	para "#ニュースを　おおくりします"
+	line "<⋯⋯>　#の　せかいてきな"
+	cont "けんきゅうしゃ　オーキドはかせが"
+	cont "カントー　から"
+	cont "すがたを　けしました"
+	cont "あらたな　けんきゅうの　ばしょを"
+	cont "もとめて　いどうした　との"
+	cont "みかたも　ありますが"
+	cont "なんらかの　じけんに　まきこまれた"
+	cont "かのうせいも　あり"
+	cont "かんけいしゃは　とても"
+	cont "しんぱい　しています"
 
-	para "...That concludes"
-	line "today's news."
-	cont "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
+	para "<⋯⋯><⋯⋯>いじょう"
+	line "#ニュースでした"
 
-	para "Coming up, music."
+	para "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
+	line "それでは　ひきつづき"
+	cont "おんがくを　おたのしみ　ください"
 	done
+
+;PlayerHouse2FTextString9:
+;	text "<PLAYER> turned"
+;	line "on the radio."
+;
+;	para "Now listening to"
+;	line "JOPM, the POKéMON"
+;	cont "broadcast station!"
+;	cont "We'll now present"
+;	cont "POKéMON News."
+;
+;	para "...World-renowned"
+;	line "POKéMON researcher"
+;	cont "reported missing"
+;	cont "from Kanto!"
+;	cont "Some suspect that"
+;	cont "PROF. OAK may have"
+;	cont "simply left for a"
+;	cont "new place to"
+;	cont "study, but we"
+;	cont "can't yet disprove"
+;	cont "that foul play"
+;	cont "may have been."
+;	cont "involved."
+;	cont "Concerned parties"
+;	cont "are very worried."
+;
+;	para "...That concludes"
+;	line "today's news."
+;	cont "<⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯><⋯⋯>"
+;
+;	para "Coming up, music."
+;	done

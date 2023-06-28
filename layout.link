@@ -306,8 +306,6 @@ ROMX $13
 
 ROMX $14
 	org $4000
-	org $40dd
-	"data/types/names.asm"
 	org $4f10
 	"data/pokemon/base_stats.asm"
 	"data/pokemon/names.asm"
@@ -966,6 +964,11 @@ ROMX $42
 	org $6886
 	"engine/games/picross_minigame.asm"
 	"gfx.asm@Picross GFX"
+
+ROMX $43
+	org $4000
+	org $40dd
+	"data/types/names.asm"
 
 WRAM0
 	org $c000
