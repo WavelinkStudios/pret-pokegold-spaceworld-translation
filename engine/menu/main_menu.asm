@@ -296,7 +296,7 @@ PlayerInfoText:
 	text_end
 
 ;PlayerInfoText:
-;	db   "しゅじんこう"
+;	db   "PLAYER"
 ;	next "BADGES"
 ;	next "POKéDEX"
 ;	next "TIME"
